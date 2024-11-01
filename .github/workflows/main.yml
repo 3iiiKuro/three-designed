@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./  # The directory to upload; adjust if needed
-          server-dir: /public_html  # Hostinger's root directory
+          server-dir: /public_html/  # Hostinger's root directory
           protocol: ftps  # Use FTPS for secure transfer
